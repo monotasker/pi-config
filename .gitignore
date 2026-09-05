@@ -1,0 +1,4 @@
+agent/auth.json
+agent/models-store.json
+agent/sessions/
+pi-acp/sessions-map.json

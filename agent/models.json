@@ -1,0 +1,22 @@
+{
+  "providers": {
+    "lmstudio": {
+      "baseUrl": "http://100.84.114.49:1234/v1",
+      "api": "openai-completions",
+      "apiKey": "lm-studio",
+      "compat": {
+        "supportsDeveloperRole": false,
+        "supportsReasoningEffort": false
+      },
+      "models": [
+        {
+          "id": "qwen/qwen3-coder-next",
+          "name": "Qwen3 Coder Next (LMS)",
+          "input": ["text"],
+          "contextWindow": 131072,
+          "maxTokens": 8192
+        }
+      ]
+    }
+  }
+}
