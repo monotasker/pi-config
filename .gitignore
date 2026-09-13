@@ -1,6 +1,9 @@
 agent/auth.json
 agent/models-store.json
 agent/sessions/
+agent/sessions/**/*.jsonl
+agent/settings.json
+agent/trust.json
 pi-acp/sessions-map.json
 /agent/trust.json
 /pi-acp/session-map.json

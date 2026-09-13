@@ -15,6 +15,27 @@
           "input": ["text"],
           "contextWindow": 131072,
           "maxTokens": 8192
+        },
+        {
+          "id": "google/gemma-4-31b-qat",
+          "name": "Gemma 4 31B",
+          "input": ["text", "image"],
+          "contextWindow": 262144,
+          "reasoning": true
+        },
+        {
+          "id": "qwen/qwen3-next-80b",
+          "name": "Qwen3 Next 80B",
+          "input": ["text", "image"],
+          "contextWindow": 262144,
+          "reasoning": true
+        },
+        {
+          "id": "qwen/qwen3.6-35b-a3b",
+          "name": "Qwen3 3.6 35B",
+          "input": ["text", "image"],
+          "contextWindow": 262144,
+          "reasoning": true
         }
       ]
     }
