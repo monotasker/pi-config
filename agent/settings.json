@@ -1,4 +1,6 @@
 {
   "defaultProvider": "lmstudio",
-  "defaultModel": "qwen/qwen3-coder-next"
+  "defaultModel": "qwen/qwen3-coder-next",
+  "lastChangelogVersion": "0.85.0",
+  "theme": "light"
 }
