@@ -14,7 +14,11 @@
           "name": "Qwen3 Coder Next (LMS)",
           "input": ["text"],
           "contextWindow": 131072,
-          "maxTokens": 8192
+          "maxTokens": 8192,
+          "reasoning": true,
+          "compat": {
+            "supportsReasoningEffort": true
+          }
         },
         {
           "id": "google/gemma-4-31b-qat",
