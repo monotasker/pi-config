@@ -359,6 +359,20 @@ async function fetchSearchResults(
 }
 
 export default function (pi: ExtensionAPI) {
+	// Add confirmation prompt before every web_search call
+	pi.on("tool_call", async (event, ctx) => {
+		if (event.toolName === "web_search" && event.input?.query) {
+			const query = event.input.query as string;
+			const confirmed = await ctx.ui.confirm(
+				`Allow web search${query ? ` for: "${query}"` : ""}?`,
+				"web_search"
+			);
+			if (!confirmed) {
+				return { block: true, reason: "Web search was not approved by user" };
+			}
+		}
+	});
+
 	// Register the search tool
 	pi.registerTool({
 		name: "web_search",
