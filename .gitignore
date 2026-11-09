@@ -7,3 +7,11 @@ agent/trust.json
 pi-acp/sessions-map.json
 /agent/trust.json
 /pi-acp/session-map.json
+/agent/bin
+/agent/install/current-version
+/agent/install/current-version
+/agent/install/current-version
+/agent/install/managed-install.json
+/agent/install/releases/1.5.0/metadata.json
+/agent/install/releases/1.5.0/node_modules
+/agent/install/releases/1.5.0
